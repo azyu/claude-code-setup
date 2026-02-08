@@ -1,0 +1,31 @@
+# Ignore everything by default
+*
+
+# Allow repo structure
+!.gitignore
+!README.md
+!INSTALL.md
+# Allow config files
+!CLAUDE.md
+
+# Allow rules
+!rules/
+!rules/*.md
+
+# Allow agents
+!agents/
+!agents/*.md
+
+# Allow commands
+!commands/
+!commands/*.md
+
+# Allow hooks
+!hooks/
+!hooks/README.md
+!hooks/pre-tool-use/
+!hooks/pre-tool-use/*.sh
+!hooks/post-tool-use/
+!hooks/post-tool-use/*.sh
+!hooks/stop/
+!hooks/stop/*.sh
