@@ -85,7 +85,6 @@ Install with `claude plugins add <name>`:
 | `codex-review` | cc-plugins | OpenAI Codex code review |
 | `skill-finder` | claude-plugin | Project-specific skill search |
 | `plan-review-codex` | claude-plugin | Codex-based plan review |
-| `claude-mem` | thedotmack | Memory/knowledge management (MCP) |
 | `plannotator` | plannotator | Interactive code review |
 
 The first 6 are auto-installed via [INSTALL.md](INSTALL.md). The rest can be added manually.
